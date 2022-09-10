@@ -1,4 +1,4 @@
-export default class Cnpj {
+export class Cnpj {
     private text: string;
     private clean_text: string;
     private cnpj_valid: boolean;
@@ -15,7 +15,13 @@ export default class Cnpj {
             this.clean_text = this.text;
             this.applyMask();
         }
-        this.cnpj_valid = this.validateCnpj();
+        if(this.validateCnpj()){
+            this.cnpj_valid = true;
+        }else{
+            this.cnpj_valid = false;
+            this.text = 'não existe';
+            this.clean_text = 'não existe';
+        }
     }
 
     public mask(): string{
