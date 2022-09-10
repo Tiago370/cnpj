@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
 var test_1 = require("../test-lib/test");
-var cnpj_1 = require("../src/cnpj");
+var cnpj_1 = require("../cnpj/cnpj");
 var test = new test_1.Test('Cnpj');
 var cnpj = new cnpj_1.Cnpj('18.025.940/0001-09');
 test.equal(cnpj.isValid(), true, '18.025.940/0001-09 é um cnpj válido.');

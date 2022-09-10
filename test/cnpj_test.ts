@@ -1,5 +1,5 @@
 import { Test } from '../test-lib/test';
-import { Cnpj } from '../src/cnpj';
+import { Cnpj } from '../cnpj/cnpj';
 
 const test = new Test('Cnpj');
 
