@@ -1,0 +1,26 @@
+{
+  "name": "cnpj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiago370/cnpj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tiago370/cnpj/issues"
+  },
+  "homepage": "https://github.com/Tiago370/cnpj#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@types/prettier": "^2.6.0"
+  }
+}
